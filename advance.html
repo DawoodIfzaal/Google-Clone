@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="advance.css">
+  </head>
+  
+  <body>
+    <div class="outer-container">      
+      <div class="google-con">
+        <img class="google-img" src="google.png">
+        <div class="head-con">
+          <a class="links" href="index.html">Google Search</a>
+          <a class="links" href="images.html">Google Images</a>
+        </div>
+      </div>
+
+      <div class="advance"><h2>Advanced Search</h2></div>
+      <div class="body container">
+        <form action="https://google.com/search" method="get">
+          <div class="header-con">
+            <label class="start-head">Find pages with...</label>
+            <label class="end-head">To do this in the search box.</label>
+          </div>
+          
+          <div class="content-con">
+            <div class="start-con">
+              <label for="thesewords" class="start">All these words:</label>
+            </div>
+            <input type="text" class="middle" id="thesewords" name="as_q">
+            <div class="end-con">
+              <label class="end">Type the important words: tri-colour rat terrier</label>
+            </div>
+          </div>
+
+          <div class="content-con">
+            <div class="start-con">
+              <label for="exactwords" class="start">This exact word or phase:</label>
+            </div>
+            <input type="text" class="middle" id="exactwords" name="as_epq">
+            <div class="end-con">
+              <label class="end">Put exact words in quotes: "rat terrier"</label>
+            </div>
+          </div>
+
+          <div class="content-con">
+            <div class="start-con">
+              <label for="anywords" class="start">Any of these words:</label>
+            </div>
+            <input type="text" class="middle" id="anywords" name="as_oq">
+            <div class="end-con">
+              <label class="end">Type OR between all the words you want: miniature OR standard</label>
+            </div>
+          </div>
+          
+          <div class="content-con">
+            <div class="start-con">
+              <label for="nonewords" class="start">None of these words:</label>
+            </div>
+            <input type="text" class="middle" id="nonewords" name="as_eq">
+            <div class="end-con">
+              <label class="end">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label>
+            </div>
+          </div>
+          
+          <div class="button-con">
+            <input type="submit" class="button" value="Advanced Search">
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
