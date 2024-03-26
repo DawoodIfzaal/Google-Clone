@@ -6,6 +6,7 @@
   height: 100%;
   background:#202124;
 }
+
 .google-con{
   display: flex;
   justify-content: space-between;
@@ -83,6 +84,7 @@ h2{
   width: 220px;
   padding-left: 35px;
 }
+
 .start{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -93,9 +95,6 @@ h2{
   height: 25px;
   flex: 1;
   margin-right: 10px;
-}
-.middle:active{
-  border:1px solid rgb(48, 121, 237);
 }
 
 .end-con{
@@ -122,5 +121,11 @@ h2{
   height: 30px;
   font-family: Arial, Helvetica, sans-serif;
   width: 150px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  border-radius: 2px;
+}
 
+.button:hover{
+  opacity: 0.3px
 }
